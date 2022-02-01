@@ -24,10 +24,9 @@ function shadow(e) {
 
     //styles the shadow: px on x- and y axis,  and colour; the * -1 in the variations makes the shadow move in the opposite way 
     text.style.textShadow = `
-    ${xWalk}px ${yWalk}px 0 rgba(255,0,255,0.7),
-    ${xWalk * -1}px ${yWalk}px 0 rgba(180,180,180,0.7), 
-    ${yWalk}px ${xWalk * -1}px 0 rgba(90,70,90,0.7),
-    ${yWalk * -1}px ${xWalk}px 0 rgba(50,250,180,0.7)
+    ${xWalk}px ${yWalk}px 0 rgba(168,64,255,0.7), 
+    ${yWalk}px ${xWalk * -1}px 0 rgba(1,1,38,0.7),
+    ${yWalk * -1}px ${xWalk}px 0 rgba(3,4,94,0.7)
     `;
 }
 
